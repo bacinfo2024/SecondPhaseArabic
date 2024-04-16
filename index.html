@@ -1,0 +1,1506 @@
+<!doctype html>
+<html>
+    <head>
+        <title>BAC INFO 2024</title>
+        <meta charset="utf-8">
+        <link rel="icon" type="image/png" href="logo2.png" sizes="128x128" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href='https://fonts.googleapis.com/css?family=Allerta Stencil' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Nova Flat' rel='stylesheet'>
+        <link href="https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400..700&display=swap" rel="stylesheet">
+    </head>
+<style>
+    @import url(https://fonts.googleapis.com/earlyaccess/lateef.css);
+    *{
+            margin :0;
+            padding:0;
+            }
+            header{
+                height:65px;
+                background: #0f0f0f;
+                position: fixed;
+                text-align: center;
+                animation: header 4s ;
+                width: 100%;
+                z-index: 3;
+                top: 0;
+                left: 0;
+                background: url(backheader.jpg) no-repeat center ;
+                background-size: cover;
+            }
+            .title{     
+                margin-left: auto;
+                margin-right: auto;
+                color:rgba(255, 0, 0, 0.623);
+                font-weight:bold ;
+                text-transform: uppercase;
+                font-family:Nova Flat ;
+                font-size: 20px;
+                text-shadow:0 0 20px black;
+                text-align: center;
+                animation: ddd;
+                animation-duration: 1s;
+                width: 100%;
+                animation-iteration-count: infinite;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: -17px;
+                height: auto;
+            }
+           .arabic{
+            font-family: Markazi Text;
+            font-size: 23px;
+            margin-top: 10px;
+           }
+            
+            .banner{
+            height:100%;
+            margin-top: 60px;
+            }
+
+            .hrbanner{
+                width: 100%;
+                background-color: #262626;
+                margin-top: -5px;
+                animation: hr;
+                animation-duration: 4s;
+                animation-iteration-count: infinite;
+                height: 10px;
+                border: 0;
+            }
+            .hrbanner2{
+                width: 100%;
+                background-color: #262626;
+                margin-top: -5px;
+                animation: hr;
+                animation-duration: 4s;
+                animation-iteration-count: infinite;
+                height: 6px;
+                border: 0;
+            }
+            @keyframes hr{
+                0%   {top: 0px; left: 0px; background-color: #262626;}
+                12.5%  {top: 0px; left: 10px; background-color: #262626;}
+                25%  {top: 10px; left: 10px; background-color: #a70000;}
+                37.5%  {top: 10px; left: 0px; background-color: #262626;}
+                50% {top: 0px; left: 0px; background-color: #262626;}
+                62.5%  {top: 0px; left: 10px;  background-color: #262626;}
+                75%  {top: 10px; left: 10px; background-color: white;}
+                87.5%  {top: 10px; left: 0px; background-color: #262626;}
+                100% {top: 0px; left: 0px; background-color: #262626;}
+                }
+
+            .banner img{
+                width: 100%;
+                height: 100vh;
+            }
+            
+            .about p{
+                font-size: 18px;
+                line-height: 1.7;
+                font-family: Allerta Stencil;
+                text-shadow: 0 0 3px black, 0 0 5px black; 
+                margin-bottom: 25px;
+            }
+            .asami{
+                font-size: 18px;
+                line-height: 1.7;
+                font-family:Nova Flat ;
+                margin-bottom: auto;
+                text-shadow: 0 0 3px black, 0 0 5px black; 
+                color: white;
+            }
+            .desc{
+                color: #919090;
+                margin-bottom: 20px;
+            }
+            .desci{
+                margin-bottom: 20px;
+                background: -webkit-linear-gradient(#ff9100 , #ff00c8 );
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+            footer{
+                background: #000000;
+                color: #fff;
+                height: 500px;
+                
+            }
+            
+            .quote{
+                font-family:  Nova Flat;
+                
+                
+            }
+            .quote img{
+                width: 10px;
+                height: 3px;
+            }
+            .pquote{
+                border-radius: 0;      
+                font-family: Nova Flat;
+                border-width: 100%;
+                width: 80%;
+                margin-left: auto;
+                margin-right: auto;
+                border-radius: 100px;
+                text-shadow: 0 0 3px black, 0 0 5px black; 
+                color: white;
+            }
+            .pquote2{
+                border-radius: 0;      
+                font-family:Nova Flat ;
+                border-width: 100%;
+                font-size: large;
+                width: 80%;
+                margin-left: auto;
+                margin-right: auto;
+                border-radius: 100px;
+            }
+            .pquote2ar ,.pquote2arr{
+                border-radius: 0;      
+                font-family: Lateef;
+                border-width: 100%;
+                font-size: 26px;
+                width: 90%;
+                margin-left: auto;
+                margin-right: auto;
+                border-radius: 100px;
+                text-shadow: 0 0 3px black, 0 0 5px black; 
+                color: white;
+            }
+            .quote2{
+                background: url(quds.jpg) no-repeat center ;
+                background-size: cover;
+            }
+            .quote2arr{
+                width: auto;
+            
+            }
+            .arabquote{
+                font-family: 'Gulzar', serif;
+                color: white;
+                font-size: 22px;
+                text-shadow: 0 0 3px black, 0 0 5px black; 
+                width: 90%;
+            }
+            
+            .container span{
+                color: white;
+                text-transform: uppercase; 
+                display: block;
+                background: #0f0f0f;
+                text-shadow:0 0 20px #a70000;
+
+                text-align: center;
+            }
+            .text1{
+                font-size: 40px;
+                letter-spacing: 8px;
+                position: relative;
+                text-align: center;
+                background-color: gray;
+                font-family: nova flat;
+            }
+            .text2{
+                font-size: 30px;
+                font-family: nova flat;
+            }
+            
+            .container img{
+                width: 40%;
+                height: 30%;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .tsawer img {
+                width: 85px;
+                height: 85px;
+                border-radius: 20px;
+                }
+            .container img:hover {
+                box-shadow:0 0 20px #262626;
+            }
+            .contact span{
+                color: white;
+                text-transform: uppercase; 
+                display: block;
+                background: #262626;
+                text-shadow:0 0 20px #FFD700;
+                text-align: center;
+            }
+            .ourpics{
+                background-color: #3c3c3c21;
+            }
+            .ourpics span{
+                color: white;
+                text-transform: uppercase; 
+                display: block;
+                background: #262626;
+                text-shadow:0 0 20px #FFD700;
+                text-align: center;
+            }
+            .text1{
+                font-size: 30px;
+                letter-spacing: 8px;
+                position: relative;
+                text-align: center;
+                background-color: rgb(255, 0, 0);
+                animation: text 3s 1;
+            }
+            .text2{
+                font-size: 20px;
+                
+
+            }
+
+
+            .contact {background-color: #0a0a0a21;
+            } 
+            
+            @keyframes d {
+            0%   {top: 0px; left: 0px; background-color: rgba(172, 172, 250, 0.568);}
+            12.5%  {top: 0px; left: 10px; background-color: rgba(172, 172, 250, 0.74);}
+            25%  {top: 10px; left: 10px; background-color: #d2f9f688;}
+            37.5%  {top: 10px; left: 0px; background-color: rgba(182, 177, 253, 0.562);}
+            50% {top: 0px; left: 0px; background-color: #c5c5f394;}
+            62.5%  {top: 0px; left: 10px; background-color: rgba(172, 172, 250, 0.527);}
+            75%  {top: 10px; left: 10px; background-color: #d2f9f673;}
+            87.5%  {top: 10px; left: 0px; background-color: rgba(182, 177, 253, 0.473);}
+            100% {top: 0px; left: 0px; background-color: #c5c5f394;}
+            }
+            @keyframes dd {
+            0%   {top: 0px; left: 0px;text-shadow:0 0 20px #a70000;}
+            25% {top: 0px; left: 0px; text-shadow:0 0 20px #bd0000;}
+            50% {top: 0px; left: 0px; text-shadow:0 0 20px #d40000;}
+            75% {top: 0px; left: 0px; text-shadow:0 0 20px #bd0000;}
+            100%   {top: 0px; left: 0px;text-shadow:0 0 20px #a70000;}
+            }
+
+            .pal{
+                width: 1px;
+            }
+           
+            .quote img{
+                width: 20%;
+                height: 20%;
+            }
+            .pquote{
+                text-shadow:0 0 20px #FFD700;
+                margin-left: auto;
+                margin-right: auto;
+                align-items: center;
+                line-height: 60px;
+                font-size: 20px;
+                text-align: center;
+                text-shadow: 0 0 3px black, 0 0 5px black; 
+                font-family: Nova Flat;
+                border-width: 100%;
+                width: 80%;
+                border-radius: 100px;
+                color: white
+            }
+            .hrquote{
+                width: 13%;
+                height:5px;
+                margin-left: auto;
+                margin-right: auto;
+                background-color: #262626;
+                margin-top: 3%;
+                border: 0;
+                margin-bottom: 10px;
+            }
+            .liste2 {
+                background-color: #3c3c3c21;
+            }
+            .memories{
+                animation: mem;
+                animation-duration: 20s;
+                animation-iteration-count: infinite;
+                width: 90%;
+                height: 45vh;
+                background-size: cover;
+                margin-left: auto;
+                margin-right: auto;
+                text-align: center;
+                min-height: 250px;
+                box-shadow: 0 0 10px #000000;
+            }
+            @keyframes mem {
+                0%   {top: 0px; left: 0px; background-image: url("julius.jpg") ;}
+                10%   {top: 0px; left: 0px; background-image: url("veni1.jpg") ;}
+                20%   {top: 0px; left: 0px; background-image: url("julius2.jpg") ;}
+                30%   {top: 0px; left: 0px; background-image: url("veni2.jpg") ;}
+                40%   {top: 0px; left: 0px; background-image: url("julius3.jpg") ;}
+                50%   {top: 0px; left: 0px; background-image: url("veni3.jpg") ;}
+                60%   {top: 0px; left: 0px; background-image: url("julius4.jpg") ;}
+                70%   {top: 0px; left: 0px; background-image: url("veni4.jpg") ;}
+                80%   {top: 0px; left: 0px; background-image: url("julius3.jpg") ;}
+                90%   {top: 0px; left: 0px; background-image: url("julius5.jpg") ;}
+                100%   {top: 0px; left: 0px; background-image: url("julius.jpg") ;}
+                }
+            .flags{
+                margin-left: auto;
+                margin-right: auto;
+
+            }
+            .flags img{
+                width: 50px;
+                height: 30px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            tr{
+                 width: 75px;
+                 height: 20%;
+            }
+            .arte{
+                background-color: #3c3c3c21;
+            }
+            .art img {
+                width: 100%;
+                height: 10%;
+            }
+            .art th{
+                width: 10%;
+                height: 50%;
+            }
+            .art table{
+                width: auto;
+            }
+            .art1 img{
+                height: 40vh;
+                width: 70%;
+                margin-bottom: -7px;
+                margin-top: 50px;
+                box-shadow: 0 0 10px #000000;
+            }
+            .art2 img{
+                height: 40vh;
+                margin-bottom: -7px;
+               
+            }
+            .mem1 img{
+                height:40vh;
+                margin-bottom: -7px;
+                box-shadow: 0 0 10px #000000;
+            }
+            .mem2 img{
+                height: 38vh;
+                width: 35hv;
+                margin-bottom: -15px;
+                box-shadow: 0 0 10px #000000;
+            }
+            video{
+                width: 100%;
+            }
+            .accentgrave{
+                font-size: 400%;
+                color: white;
+                top: 1;
+                left: 1;
+                position: absolute;
+                margin-left: 20%;
+                font-weight: normal;
+            }
+            .accentaigu{
+                font-size: 405%;
+                color: #FFD700;
+                position: absolute;
+                 top: 1;
+                 right: 0;
+                 text-align:right;
+                 margin-right: 20%;
+                 font-weight: normal;
+            }
+            .amoud{
+                filter:drop-shadow(3px 3px 0 black) ;
+                border-radius: 50%;
+                width: 20%;
+                font-family: nova flat;
+            }
+            .amoud img{
+                width: 100%;
+                height: 100%;
+                margin-bottom: -5%;
+            }
+            #body{
+                border-radius: 0;      
+                font-family: Allerta Stencil;
+                border-width: 100%;
+                width: 80%;
+                margin-left: auto;
+                margin-right: auto;
+                border-radius: 100px; 
+            }
+            h2{
+                font-family:"Allerta Stencil";
+                width: 80%;
+            } 
+            .amoud img{
+                transition: 1s;
+            }
+            .lista1{
+                text-align: center;
+                width: 100%;
+            }
+            .lista1 th{
+                width: 33%;
+            }
+            .lista2{
+                text-align: center;
+                width: 70%;
+            }
+            .lista2 th{
+                width: 50%;
+            }
+            .lista1 .tsawer{
+                transition: 1s;
+            }
+            .lista2 .tsawer{
+                transition: 1s;
+            }
+            .gold{
+                color: #FFD700;
+            }
+            .underall{
+              background: url(loa.jpg) no-repeat center center fixed;
+            background-size: cover;
+            }
+            .tadhlil{
+                background-color: #1a1a1ab2;
+            }
+            .tadhlil_khfif{
+                background-color: #1a1a1a4d;
+            }
+            .obt{
+                margin-left: auto;
+                margin-right: auto;
+                background-color: #ffffff;
+                width: 80%;
+                padding: 3%;
+                box-shadow: 0 0 10px#000000;
+            }
+            .obt button{
+                width: 10vw;
+                height: 10vw;
+                margin-left: auto;
+                margin-right: auto;
+                display: block;
+                margin-top: 2vw;
+            }
+            .obt button img{
+                height: 100%;
+                width: 100%;
+            }
+            .div{
+                background-color: #1a1a1ab2;
+                width: 100%;
+                height: 100%;
+                color: white;
+            }
+            .div img{
+                width: 100%;
+                height: 40vw;
+            }
+            .banner {
+                position: relative;
+                display: inline-block;
+                width: 100%;
+            }
+
+            .banner img {
+                display: block;
+                width: 100%;
+                height: 110vw;
+            }
+
+            .overlay-text {
+                position: absolute;
+                top: 8%; 
+                font-family: nova flat;
+                text-shadow: 0 0 3px black, 0 0 5px black; 
+                background-color: #0000002d;
+                color: #fff; 
+                padding: 10px 20px; 
+                font-size: 25px; 
+                text-align: left;
+                width: 70%;
+                animation: fam;
+                animation-duration: 9s;
+                animation-iteration-count: infinite;
+            }
+              #overlay{
+                height: 100vh;
+                background: url(loa.jpg) no-repeat center center fixed;
+            background-size: cover;
+            
+            
+            }
+
+
+              .b:active{
+                transform: scale(0.9);
+                border:3px red solid;
+              }
+              #but:hover{
+                transform: scale(0.9);
+              }
+              .h22{
+                color: white;
+                font-size: 27px;
+                text-shadow: 0 0 3px black, 0 0 5px  black;
+              }
+              #loa{
+                 mix-blend-mode: color-burn;
+              }
+              footer p {
+                text-align: center;
+              }
+              .mybequest{
+                text-align: left;
+                margin-left :-30px;
+                width: 300px;
+                font-family: Nova Flat;
+                letter-spacing: 1px;
+              }
+              .mybequestt{
+                text-align: center;
+                width: 300px;
+                font-family: Nova Flat;
+                letter-spacing: 1px;
+              }
+              .mybeqimg{
+                display: block;
+                margin-left: -25px;
+              }
+              footer table{
+                width: 110%;
+              }
+              footer table th{
+                width: 100%;
+              }
+              .le{
+                width: 40%;
+              }
+              .le hr{
+                margin-left :-25px;
+                width: 240px;
+              }
+              .credits{
+                color: white;
+                font-size: 20px;
+                background-color: #262626;
+                text-shadow: 0 0 3px black, 0 0 5px black; 
+                background-color: #0000002d;
+              }
+              .name{
+                font-size: 15px;
+                
+            }
+
+             #butt{
+                width: 110px;
+                height: 40px;
+                background-color: #000000a2;
+                color: white;
+                font-size: 18px;
+                border: 2px solid black;
+                animation: but;
+                animation-duration: 4s;
+                animation-iteration-count: infinite;
+              }
+            .backg{
+                background-color: #00000073;
+                font-family: nova flat;
+            }
+            #knowmore{
+                border: 1px solid white;
+                background-color: green;
+                color: white;
+                transition: 0.5s;
+                width: auto;
+                font-size: 2.3vh;
+                padding: 2%;
+                font-variant: small-caps;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 5px;
+                margin-bottom: 15px;
+              }
+              #knowmore:hover{
+                border: 1px solid black;
+                background-color: #ffffff8f;
+                color: black;
+              }
+              #knowwmore{
+                border: 1px solid white;
+                background-color: black;
+                color: white;
+                transition: 0.5s;
+                width: auto;
+                font-size: 2.3vh;
+                padding: 2%;
+                font-variant: small-caps;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 5px;
+                margin-bottom: 15px;
+              }
+              #knowwmore:hover{
+                border: 1px solid black;
+                background-color: #ffffff8f;
+                color: black;
+              }
+            .dakhle{
+                background-color: #171718;
+                width: 100%;
+                height: 100%;
+                color: white;
+            }
+            .dakhle p, .h2d, .h3d{
+                text-align: left;
+            }
+            .tda img{
+                width: 80%;
+                border: 1px solid black;
+            }
+            .tda3{
+                width: 100%;
+            }
+            .tda3 img{
+                width: 100%;
+                border: 1px solid black;
+                height: 35vw;
+            }
+            .mybeqq{
+                margin-left: auto;
+                margin-right: auto;
+              }
+              .mybeqimgg{
+                display: block;
+                width: 15vw;
+                height:15vw;
+                border-radius: 50%;
+              }
+              .mahdy img{
+                display: block;
+                width: 15vw;
+                height:15vw;
+                border-radius: 50%;
+              }
+            #bc{
+                margin-top: 100px;
+                margin-bottom: 150px;
+            }
+            .sd{
+                font-family: Markazi+Text;
+                color: rgb(255, 255, 255);
+                font-weight: 10;
+                text-shadow: 0 0 3px black, 0 0 5px black; 
+                margin-left: 10px;
+            }
+            .sd2{
+                font-family: Allerta Stencil;
+                color: rgb(206, 206, 206);
+                font-weight: 10;
+                font-size: 20px;
+                
+            }
+            .sdd{
+                font-family: 'Open Sans', sans-serif;
+                color: rgb(206, 206, 206);
+                font-weight: 10;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .h2d{
+                font-family:Nova Flat;
+                text-shadow: 0 0 3px black, 0 0 5px black; 
+                color: white;
+                width: 90%;
+                text-align: right;
+            }
+            .h2dd{
+                margin-left: auto;
+                margin-right: auto;
+                font-family:Nova Flat;
+                color:#FFD700 ;
+                text-shadow: 0 0 3px black, 0 0 5px black; 
+            }
+            .h3d{
+                font-weight: 20;
+                color: #e6e6e6;
+                text-shadow: 0 0 3px black, 0 0 5px black; 
+            }
+            .dimg1 img{
+                width: 80%;
+                height: 30vh;
+            }
+            .dimg1{
+                height: 30vh;
+                background:url(backdakhla.jpg) center no-repeat ;
+                background-size: cover;
+                margin-top: -20px;
+                margin-bottom: -20px;
+            }
+            .dimg2{
+                width: 40%;
+            }
+            .dimg2 img{
+                width: 90%;
+                height: 24vh;
+                border: 0px;
+                margin-left: 20px;
+            }
+            .dimg22{
+                width: 10vw;
+                height: 35vh;
+                border: 0px;
+                margin-left: -40px;
+            }
+            .th1 .sd,.h2d{
+                margin-left: 10px;
+            }
+            .tda2{
+                margin-left: auto;
+                margin-right: auto;
+                width: 90%;
+                height: 10vh;
+            }
+            .tda2 img{
+                width: 90%;
+                border: 1px solid black;
+                height: 50vh
+            }
+            .tda2 .part2 img{
+                margin-top: -40px;
+                width: 100%;
+            }
+            .lespace{
+                height: 40px;
+            }
+            .thth{
+                text-align: center;
+                text-shadow: 0 0 3px black, 0 0 5px black; 
+                color: white;
+            }
+            .tbequest{
+                width: 50%;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .tbequest tr{
+                margin-left: auto;
+                margin-right: auto;
+                width: 80%;
+            }
+            .le{
+                width: 80%;
+            }
+            .green{
+                color: green;
+            }
+            .red{
+                color: red;
+            }
+            .esp{
+                width: 7%;
+            }
+            .q{
+                width: 50%;
+            }
+            .espace2{
+                width: 5%;
+            }
+            
+            .tis3in{
+                width:90%;
+                height: 1px;
+            }
+            .lines{
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .animat{
+                animation: ddd;
+                animation-duration: 9s;
+                animation-iteration-count: infinite;
+            }
+            .persdakhla{
+                width: 100%;
+            }
+            .prod{
+                margin-left: auto;
+                margin-right: auto;
+                width: 90%;
+            }
+            .prod2 , .prod1{
+                height: 85vw;
+                width: 70vw;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                filter:drop-shadow(3px 3px 0 white) ;
+            }
+            .prod1{
+                margin-right: 1vw;
+            }
+            .prod2{
+                margin-left: 1vw;
+                z-index: 2;
+                margin-top: -30vw;
+            }
+            .logoet{
+                background-color: rgba(0, 0, 0, 0.829);
+            }
+            .logoet table{
+                width: 100%;
+            }
+            .logoet tr{
+                width: 100%;
+            }
+            .logoet th {
+                width: 25%;
+            }
+            .logoet img{
+                width: 17vw;
+                height: 27vw;
+            }
+            .prodd{
+                background: url("knightback.jpg") center no-repeat;
+                background-size: cover;
+            }
+            .prods{
+                background: url("logo0.jpg") center no-repeat;
+                background-size: cover;
+            }
+            .bc{
+                background: url("bc.jpg") center no-repeat;
+                background-size: cover;
+            }
+            .b3{
+                background-color: #00000093;
+            }
+            .b3 img , .b6 img{
+                width: 80%;
+                height: 110vw;
+                border: 1px solid black;
+                filter:drop-shadow(3px 3px 0 white) ;
+            }
+            .b5 img{
+                margin-left: auto;
+                margin-right: auto;
+                width: 80%;
+                height: 40vw;
+                filter:drop-shadow(0 0 0 ) ;
+                border: 0;
+            }
+            .bc2{
+                background-color: #00000093;
+            }
+            .tt img{
+                width: 99%;
+                border: 3px solid black;
+            }
+            video{
+                margin-left: auto;
+                margin-right: auto;
+                width: 80%;
+                height: 150vw;
+                
+            }
+            .red{
+                animation: redd 2s;
+                animation-iteration-count: infinite;
+            }
+            @keyframes redd {
+                0%{color: white;}
+                25%{color: #a70000; text-shadow: 1px white;}
+                75%{color: #a70000; text-shadow: 1px white;}
+                100%{color: white;}
+            }
+            .goldanimat{
+                animation: goldenn 2s;
+                animation-iteration-count: infinite;
+            }
+            @keyframes goldenn {
+                0%{color: white;}
+                25%{color: #FFD700;}
+                75%{color: #FFD700;}
+                100%{color: white;}
+            }
+            .whiteanimat{
+                color: white;
+            }
+            .whiteanimat2{
+                color: white;
+                text-shadow: 0 0 3px black, 0 0 5px black; 
+            }
+            .noshr{
+                width: 75%;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .rbo3hr{
+                width: 50%;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .dix{
+                width: 20%;
+            }
+            .tis3in{
+                width: 60%;
+            }
+            .cent{
+                width: 100%;
+                height: 70px;
+            }
+            details > summary {
+                color: white;
+                font-size: 22px;
+                background: url(backsummary.jpg) no-repeat center ;
+                background-size: cover;
+                padding: 5px;
+                border: 1px solid white;
+            }
+
+            details > img {
+                margin-left: 15px;
+                background: black;
+                padding: 5px;
+                border: 1px solid rgb(150, 150, 150);
+                border-top: 0;
+            }
+            .iyeb{
+                font-size: 34px;
+                font-family: lateef;
+            }
+            .haha img{
+                width: 100%;
+                height: 40vw;
+                margin-bottom: -4px;
+            }
+            .stickers{
+                width: 90%;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .stick img{
+                height: 60vw;
+                width: 100%;
+                border: 0;
+            }
+            .bannervid {
+                height: 40vw;
+            }
+            .embrace{
+                font-size: 32px;
+                background-image: linear-gradient(to right, 
+                        red 0%, red 33%, 
+                        white  33%, white  66%, 
+                        green 75%, green 100%);
+                -webkit-background-clip: text;
+                background-clip: text;
+                color: transparent;
+            }
+            .affiche{
+                position: fixed;
+                margin-left: auto;
+                margin-right: auto;
+                z-index: 5;
+                margin-top: 70vh;
+                margin-left: 85%;
+            }
+            .backblanchh{
+                background-color: white;
+                border: 1px solid black;
+            }
+            .echap{
+                color: white;
+                font-size: 15px;
+                margin-top: 124vw;
+                margin-left:auto;
+                margin-right: auto;
+                color: black;
+                font-weight: 900;
+                background: linear-gradient(90deg in oklab, red , white , green);
+                padding: 7px 14px;
+                text-shadow: 0 0 3px black, 0 0 5px black; 
+            }
+            .backspeech{
+                background: url(backspeech2.jpg) no-repeat center ;
+                background-size: cover;
+                margin-top: -5px;
+            }
+            .backspeech2{
+                background: url(backspeech2.jpg) no-repeat center ;
+                background-size: cover;
+                height: 30vh;
+            }
+            .redd{
+                color: red;
+            }
+            .logo{
+                width: 30%;
+                width: 30%;
+            }
+            .logo img{
+                height: 10vh;
+                width: 50%;
+            }
+            .cntr{
+                width: 50%;
+            }
+</style>
+
+<body onload="alertt()">
+    <div id="overlay"><center><br><br><br><br><br><img src="logo2.png" width="20%" height="20%"><br>
+        <br><br><h2 font-family="Allerta Stencil" width="80" id="para1" class="h22">It might take couple <span class="gold">seconds</span>.
+            <h2 id="para" font-family="Allerta Stencil" width="80"  class="h22">we are back <span class="gold">again !</span></h2></h2>
+    <br><br><br>
+</center></div>
+<div  id="body">  
+    <div id="affi">
+        <div class="affiche" >
+            <details><summary><img src="tunisia.png" width="28" height="17"></summary><a href="https://bacinfo2024.github.io/SecondPhase/" ><img src="english.png" width="28" height="17"></a></details>
+        </div>
+    </div>
+<header >
+    <table class="cent">
+        <tr>
+            <th class="dix"><center><img src="star.png" height="35" width="60" loading="lazy"></center></th>
+            <th class="tis3in"><section id="home">
+                <center><h1 class="title"><span class="green">𝖔𝖒𝖓𝖎𝖆 </class> <span class="whiteanimat">𝖈𝖆𝖚𝖘𝖆 </span>  <span class="redd" >𝖋𝖎𝖚𝖓𝖙 </span></h1></center>
+        </section></th>
+        <th class="dix"><center><img src="moucha8eb.png" height="35" width="60" loading="lazy" class="animimg"></center></th>
+        </tr>
+    </table>
+    <hr class="hrbanner2">
+    </header>
+    
+<div class="banner">
+    <a href="homeback.gif"><img src="homeback.gif"></a>
+    <div class="overlay-text"><table><tr><th>𝖘𝖊𝖈𝖔𝖓𝖉 <span class="red">𝖕𝖍𝖆𝖘𝖊</span></th></tr>
+    <th><center>- <span class="iyeb red"> الإيــــاب</span> -</center></th></table></div>
+    
+</div>
+
+<hr class="hrbanner">
+<div class="underall">
+    <div class="tadhlil_khfif">
+
+<section class="about" id="store">
+<section class="quote">
+</br>
+</br>
+<br>   
+    <h4 class="accentgrave">``</h4>
+<hr4 class="accentaigu">``</hr4>
+    <center><div class="amoud"><a href="https://drive.google.com/drive/mobile/folders/1udtA_jOdWUyJEOWdAvyGIQJzcMco61Rp?fbclid=IwAR3UK1TGLM4dJv98CP8_ZFNBfYqSixdIV3l8v757Vp1AIMA6D6i7wRSXG08"><img src="logo2.png"></a></div></center>
+    <hr class="hrquote">
+    <center><p class="pquote"><span class="backg">be careful who you let on your ship because some  </span><span class="backg"> people will sink the whole ship just because they  </span><span class="backg"> can't be the captain. </span><span class="backg"> when everybody knows who the real <span class="goldanimat">𝖈𝖆𝖕𝖙𝖆𝖎𝖓</span> is. </span>
+    </p></center>
+
+    <br>
+    <center><p class="pquote backg">𝕼𝖚𝖎 𝖘𝖙𝖆 𝖑𝖆 𝖈𝖗𝖊𝖆𝖙𝖎𝖛𝖎𝖙𝖆. 😉</p></center>
+    <br><center>
+    <video controls="controls" poster="explicit.jpg">
+        <source src="video.mp4">
+    </video></center>
+    <br>
+</section>
+
+</div>
+<section class="container">
+    <hr>
+<hr>
+<hr>
+    <span class="text1">TIFO</span>
+
+<span class="text2">full Explination</span>
+<hr>
+<hr>
+<hr>
+</section>
+<section class="dakhla">
+<div class="dakhle" id="ac">
+    <div class="dakhle">
+        <div class="prodd">
+        <br><center><img src="crowngold.png" height="60" width="100" loading="lazy"></center><br><br>
+        <table class="tda" border="0">
+            <tr>
+                <th class="dimg2"><img src="persdakhla.jpg" loading="lazy"></th>
+                    <th class="espace2"></th>
+                    
+                    <th class="th1"><h2 class="h2d arabic">ملك عربي</h2>
+                        <br><p class="sd arabic">قررنا أن لا شيء يمكن أن يمثلنا أكثر من هويتنا العربية، وثقافتنا، وتاريخنا، وخاصة <span class="gold">عصرنا الذهبي</span></p></th>
+    
+            </tr>
+            <tr>
+                <th colspan="3"><p class="sd arabic">الملك الذي نعرضه ليس شخصًا حقيقيًا من التاريخ. لم نستطع تضمين كل ملك عربي عظيم، لذا قمنا بإنشاء شخصية تشبه كل واحد منهم.</span></p></th>
+            </tr>
+            <tr>
+                <th colspan="3"><br><br></th>
+            </tr>
+            <tr>
+                <th class="dimg22"><div class="memories"></div></th>
+                <th colspan="2" class="nos"><h2 class="h3d" >About</h2><p class="sd"><span class="gold">Veni</span>, <span class="gold">Vidi</span>, <span class="gold">Vici</span> &nbsp; &nbsp; <span class="pquote2ar"> ( أتَيـتُ     &nbsp;   فَرَأيـتُ    &nbsp;    فَانتَصَـرتُ )</span>  <br> <span class="arabic"> العبارة اللاتينية "فيني، فيدي، فيشي"  تُستخدم للإشارة إلى الانتصار السريع والحاسم. تنسب العبارة بشكل شائع إلى يوليوس قيصر.</span></span>
+                </p><br><br></th>
+            </tr>
+        </table>
+        <center><button id="knowwmore" onclick="link()">&nbsp;Know More&nbsp;</button></center>
+        <hr class="noshr">
+
+</br>
+</div>
+</div>
+</div>
+<hr><hr>
+<br><br><br>
+<hr><hr>
+<div class="b3 b5 ">
+    <br>
+    <table class="tda3">
+        <tr>
+            <th colspan="3">&nbsp;</th>
+        </tr>
+        <tr>
+            <th colspan="3" class="arabic"><h2 class="h2d arabic">ماهي علاقة <span class="gold">فيني</span>, <span class="gold">فيدي</span>, <span class="gold">فيشي</span> بالتيفو؟</h2></th>
+        </tr>
+        <tr>
+            <th colspan="3">&nbsp;</th>
+        </tr>
+        <tr>
+            <th><img src="fact1.jpg" loading="lazy"></th>
+            <th>&nbsp;</th>
+            <th><img src="fact2.jpg" loading="lazy"></th>
+        </tr>
+        <tr>
+            <th colspan="3"><p class="sd whiteanimat2 arabic"> </span> <span  class="goldanimat">رسالة قيصر الانتصارية </span> "فيني، فيدي، فيشي"،<span class="red"> وفتوحات العرب </span > تشترك في موضوع مشترك من الانتصار السريع. في عام 47 ق.م.، احتفلت الكلمات الموجزة لقيصر إلى مجلس الشيوخ الروماني بانتصاره السريع والحاسم على فارناكس الثاني من بونتوس في آسيا الصغرى (تركيا). وبالمثل، خلال فتوحات العرب، والتي دفعتها الإيمان الإسلامي والوحدة، قاموا بتوسيع أراضيهم بسرعة، متغلبين على الإمبراطوريات العظيمة بتكتيكات سباقة لعهدها. تسلط الحالتان الضوء على فعالية العمل السريع والحاسم في تحقيق النجاح  <span class="red">وترك أثر دائم في التاريخ.<br> 
+            </p></th>
+        </tr>
+    </table>
+    <table>
+        <tr >
+            <th class="logo"> <img src="logo2.png" ></th>
+            <th class="cntr"><center><span class="sd "> &nbsp;</span></center></th>
+            <th class="logo"><img src="moucha8eb.png"></th>
+        </tr>
+    </table>
+    <br><h2 class="h2d arabic">  عن <span class="gold"> الخلفية</h2><br>
+    <center><img src="aswalmadina.jpg" loading="lazy"></center><br>
+    <p class="sd whiteanimat2 arabic">الخلفية تُظهر الدمار الذي كان يتركه العرب في أراضي أعدائهم، القلاع، والمدن.</p><br>
+</div>
+
+<hr><hr>
+<br><br><br>
+<hr><hr>
+<div class="haha">
+    <img src="haha.jpg" loading="lazy">
+</div>
+<hr><hr>
+<br><br><br>
+<hr><hr>
+<div class="b3">
+    <br><br>
+    <center><h3 class="h2dd">The first tifo [ burned ]</h3></center>
+    <center><video controls="controls">
+        <source src="burned tifo.mp4">
+    </video></center>
+    <br>
+</div>
+<hr><hr>
+<br><br><br>
+<hr><hr>
+<div class="b3">
+    <div class="prod">
+    <br>
+    <center><h3 class="h2dd">The K.I.N.G <span class="red"> 3D </span></h3></center>
+    <br>
+    <center><img src="unfinished king.jpg" loading="lazy" class="prod1"></center>
+    <br>
+    <center><img src="unfinished king2.jpg" loading="lazy" class="prod2"></center>
+    <br></div><br>
+    <center><h3 class="h2dd">New Technique Unlocked.</h3></center>
+    <center><h3 class="h2dd"><span class="whiteanimat"> Done successfully and professionally.</span></h3></center>
+    <center><h3 class="h2dd"><span class="redd">with limited resources.</span></h3></center>
+    <center><video controls="controls" >
+        <source src="3d.mp4">
+    </video></center>
+    
+    <center><p class="sd">- 01/03/2024 -</p></center><br>
+    <hr class="noshr">
+    <br>
+</div>
+<hr><hr>
+<br><br><br>
+<hr><hr>
+<div class="b3">
+    <br>
+    <center><h3 class="h2dd">The Banner</h3></center>
+    <br>
+    <center><img src="message.png" loading="lazy"></center>
+    <br>
+    <center><video controls="controls"  class="bannervid">
+        <source src="banner vid.mp4">
+    </center>
+    <br>
+</div>
+<hr><hr>
+<br><br><br>
+<hr><hr>
+<div class="b3">
+    <br>
+    <center><h3 class="h2dd">Stickers</h3></center>
+    <br>
+    <center><img src="stickers.jpg" loading="lazy"></center>
+    <br>
+    <br>
+    
+</div>
+<hr><hr>
+<br><br><br>
+<hr><hr>
+<div class="haha">
+    <img src="wish.jpg" loading="lazy"><hr><hr><br>
+</div></br><hr><hr>
+<div class="bc2">
+
+<table class="tda2" border="0">
+    <tr>
+        <th colspan="3" class="thth"><h3 class="h33">The TIFO</h3></th>
+    </tr>
+    
+    <tr>
+        <th colspan="3" class="thth"><h4 class="sdd">02/03/2024</h4></th>
+        </tr>
+    
+</table>
+<table class="tt">
+    <tr>
+        <th class="p4"><img src="dakhla2.jpg" loading="lazy"></th>
+    </tr>
+</table>
+<div class="backspeech"><br>
+<table class="tda2" border="0">
+    <tr><th class="thth"><h4 class="h33">Despite the setbacks we faced, from equipment malfunctions to the burning of the first tifo a week before the specified date, Bac Info did not fail to accomplish the mission. ☝💥</h4></th></tr>
+</table>
+<br>
+
+<table border="0" class="mybeqq">
+    <tr>
+    <th><a href="https://drive.google.com/drive/mobile/folders/1udtA_jOdWUyJEOWdAvyGIQJzcMco61Rp?fbclid=IwAR3UK1TGLM4dJv98CP8_ZFNBfYqSixdIV3l8v757Vp1AIMA6D6i7wRSXG08"><img src="logo2.png" class="mybeqimgg" loading="lazy"></a></th>
+</tr>
+</table>
+</br><br>
+</br>
+</div>
+</div>
+
+</section><hr><hr>
+<br><br><br>
+<hr class="hrbanner">
+    <section class="quote2">
+    <div class="tadhlil">
+        <br>
+        <br>
+        <h4 class="accentaigu">``</h4>
+<hr4 class="accentgrave">``</hr4>
+        <center><div class="amoud"><a href="https://drive.google.com/drive/mobile/folders/1udtA_jOdWUyJEOWdAvyGIQJzcMco61Rp?fbclid=IwAR3UK1TGLM4dJv98CP8_ZFNBfYqSixdIV3l8v757Vp1AIMA6D6i7wRSXG08"><img src="logo2.png" loading="lazy"></a></center>
+        <hr class="hrquote">
+         <center><p class="pquote2ar"> سُبْحَانَ الَّذِي أَسْرَى بِعَبْدِهِ لَيْلاً مِّنَ الْمَسْجِدِ الْحَرَامِ إِلَى الْمَسْجِدِ الأَقْصَى الَّذِي بَارَكْنَا حَوْلَهُ لِنُرِيَهُ مِنْ آيَاتِنَا إِنَّهُ هُوَ السَّمِيعُ البَصِيرُ </p></center>
+        </p></center> 
+        <center>
+            <table>
+                <tr>
+                    <th class="flags"><a href="https://www.versobooks.com/en-gb/blogs/news/solidarity-with-palestine-free-resources-and-further-reading"><img src="palestine2.jpg" class="pal"></a></th>
+                    <th class="esp">&nbsp;</th>
+                    <th class="q"><p class="pquote2arr">{1} (الإسراء)</p></th>
+                    <th class="esp">&nbsp;</th>
+                    <th class="flags"><img src="tunisia.png" class="pal" loading="lazy"></th>
+                </tr>
+            </table></center>
+        <br>
+        <br>
+        <br>
+<hr class="hrbanner">
+</div>
+</section>
+<br>
+<br>
+        <br>
+    
+
+        <section class="container">
+            <hr>
+        <hr>
+        <hr>
+            <span class="text1">Our</span>
+        
+        <span class="text2">Big thing</span>
+        <hr>
+        <hr>
+        <hr>
+        </section>
+<section class="ourpics">
+
+<table border="0" class="art">
+    <tr>
+        <th colspan="2" class="mem1"><hr><hr><a href="sourajama3iyalAçwabac.jpg"><img src="sourajama3iyalAçwabac.jpg" height="100" width="200" loading="lazy"></a><hr><hr></th>
+    </tr>
+    <tr>
+        <th colspan="2" class="mem1"><hr><hr><a href="img1.jpg"><img src="img1.jpg" height="100" width="200" loading="lazy"></a><hr><hr></th>
+    </tr>
+    <tr>
+        <th colspan="2" class="mem1"><hr><hr><a href="img2.jpg"><img src="img2.jpg" height="100" width="200" loading="lazy"></a><hr><hr></th>
+    </tr>
+    <tr>
+        <th colspan="2" class="mem1"><hr><hr><a href="img3.jpg"><img src="img3.jpg" height="100" width="200" loading="lazy"></a><hr><hr></th>
+    </tr>
+    <tr>
+        <th colspan="2" class="mem1"><hr><hr><a href="img4.jpg"><img src="img4.jpg" height="100" width="200" loading="lazy"></a><hr><hr></th>
+    </tr>
+    <tr>
+        <th colspan="2" class="mem1"><hr><hr><a href="img5.jpg"><img src="img5.jpg" height="100" width="200" loading="lazy"></a><hr><hr></th>
+    </tr>
+    <tr>
+        <th colspan="2" class="mem1"><hr><hr><a href="img6.jpg"><img src="img6.jpg" height="100" width="200" loading="lazy"></a><hr><hr></th>
+    </tr>
+    <tr>
+        <th colspan="2" class="mem1"><hr><hr><a href="img7.jpg"><img src="img7.jpg" height="100" width="200" loading="lazy"></a><hr><hr></th>
+    </tr>
+</table>
+</section>
+</div>
+</section>
+<footer>
+    <hr><hr>
+<center>
+<br>
+<table border="0" class="tbequest">
+    <tr>
+        <th class="le">
+<p class="mybequest">next seniors, <span class="red">continue the job.</span> <br>
+    create a website every year.<br>
+    <span class="red">let's make this our tradition !</span> <br></p></th><th>
+    <a href="https://drive.google.com/drive/mobile/folders/1udtA_jOdWUyJEOWdAvyGIQJzcMco61Rp?fbclid=IwAR3UK1TGLM4dJv98CP8_ZFNBfYqSixdIV3l8v757Vp1AIMA6D6i7wRSXG08"><img class="mybeqimg" src="logo2.png" width="55" height="55" loading="lazy"></a></th>
+</tr>
+<tr>
+    <th class="le">
+       <hr>
+    </th>
+    <th> </th>
+</tr>
+</table>
+<br><br>
+<hr><hr>
+<div class="haha">
+    <img src="thx.jpg"><hr><hr>
+</div>
+<br>
+<div class="backspeech2">
+<center><p class="mybequestt">We intend to change the current level.<br><br><center><hr class="rbo3hr"></center><br><span class="embrace">𝖊𝖒𝖇𝖗𝖆𝖈𝖊 𝖈𝖔𝖒𝖕𝖚𝖙𝖊𝖗 𝖘𝖈𝖎𝖊𝖓𝖈𝖊</span></p></center>
+<br>
+<div class="lines">
+</center></div>
+</footer>
+</div>  
+</body>
+</html>
+<script>
+    ol=document.getElementById("overlay");
+    body=document.getElementById("body");
+    affi=document.getElementById("affi");
+    body.style.display="none";
+    para.style.display="none";
+    function nahi(){
+        affi.style.display="none";
+    }
+        function isMobile() {
+  const regex = /Mobi|Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i;
+  return regex.test(navigator.userAgent);
+}
+
+
+    window.addEventListener("load",function(){
+        para1.style.display="none";
+        para.style.display="inline";
+    });
+    function alertt(){
+ if (!isMobile()){
+  console.log("Desktop device detected");
+  /*window.location.href = "https://bacinfo2024.github.io/desktop/"*/;
+  
+}
+    setTimeout(main, 2200);
+function main(){ol.style.display="none";
+        body.style.display="inline";
+        }}
+function hide(){document.getElementById("alert").style.display="none";}
+
+var countDownDate = new Date("MAR 02, 2024 15:30:00").getTime();
+var x = setInterval(function() {
+  var now = new Date().getTime();
+  var distance = countDownDate - now;
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+  document.getElementById("timeleft").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("timeleft").innerHTML = "Click on the lock!";
+  }
+}, 1000);
+a=document.getElementById("ac");
+document.addEventListener('contextmenu', event => event.preventDefault());
+  function link() {
+  window.location.href = "https://en.wikipedia.org/wiki/Veni,_vidi,_vici";
+  }
+  
+</script>
+<!--   
+                                                 #    #
+                                            %%% ##   ##
+                                         %%%%% ###%%###
+                                        %%%%% ### %%% #
+                                      %%%%%% ### %%% ###
+                                       %%%% ## %% #######
+                                      %%%%% # %% #######
+                                    %%%%%% # % #########
+                                   %%%%% ##### #########
+                         ###        %% ####### #########
+                %%% #M##########    ########### ########
+             %%%% ############################### #######
+           %%%%% ################################## ######
+         %%%%%% #################################### #####
+        %%%%%% #####################################  ###
+        %%%%% #######################################
+       %%%%%% ########################################
+    % %%%%%%% ########################################
+     %%%%%%%%% #######################################
+    %%%%%%%%%% ########################################
+ %%% %%%%%%%%   ###### ################################
+   %%%%%%%%      ###### #################### ##########
+% %%%%%%%%        ####### ########### ###### ##########
+ %%%%%%%%%         #######  ########### ###### ########
+%%%%%%%%%%          ##### ###  ######### ####### ######
+ %%%%%%%%%%          #### ##               ####### ####
+ %%%%%%%%%%%           ## #                  ##### ###
+  %%  %% % %%         # ##                      ## ###
+    %   %    %        # ###                      # ###
+                       # ###                     ## ###
+                       # ###                     ## ###
+                       # ####                   #### ##
+                      ##H ###                  ##### ###
+                     ####  ###                 ####   ##
+                    #####   ###                 ##    ##
+                   #####    ####                      ###
+                    ##        ###                     ###
+                               ####                     ##
+                                ####                    ###
+                                                        ####
+                                                         ##
